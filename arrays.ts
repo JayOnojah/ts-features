@@ -22,27 +22,27 @@ importantDates.push(new Date());
 
 // COMPUTED PROPERTIES
 const role = 'host';
-const person = 'Jools Holland';
+const person1 = 'Jools Holland';
 const role2 = 'Director';
 const person2 = 'James Cameron';
 
 const team = {
-  [role]: person,
+  [role]: person1,
   [role2]: person2,
   [1 + 6 + 9]: 'sixteen',
 };
 
 // function addProp(obj, k, v) {
 //   const copy = {
-//     ...obj
+//     ...obj,
 //   };
 //   copy[k] = v;
 //   return copy;
 // }
 
-const addProp = (obj, k, v) => ({
-  ...obj,
-  [k]: v,
-});
+// // const addProp = (obj, k, v) => ({
+// //   ...obj,
+// //   [k]: v,
+// // });
 
-const res = addProp(team, 'happy', ':)');
+// const res = addProp(team, 'happy', ':)');

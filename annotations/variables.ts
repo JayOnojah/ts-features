@@ -14,8 +14,8 @@ let myNumbers: number[] = [1, 2, 3];
 let truths: boolean[] = [true, true, false];
 
 // Classes
-class Car {}
-let car: Car = new Car();
+class VCar {}
+let vCar: Car = new Car();
 
 // Object Literal
 let point: { x: number; y: number } = {
@@ -28,7 +28,7 @@ const logNumber: (i: number) => void = (i: number) => {
   console.log(i);
 };
 
-// When to use annotations
+// When to use Type Annotations
 // 1) Function that returns the 'any' type
 const json = '{"X": 10, "y": 20}';
 const coordinates: { x: number; y: number } = JSON.parse(json);
